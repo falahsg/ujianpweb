@@ -1,4 +1,3 @@
-<!-- load_data.php -->
 <?php
 include('config.php');
 
