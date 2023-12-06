@@ -1,4 +1,3 @@
-<!-- index.php -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,7 +30,7 @@
         <div class="data-container">
             <h2>Data Laundry</h2>
             <table id="dataLaundry">
-                <!-- Data rows will be dynamically generated here -->
+                
             </table>
         </div>
     </div>
@@ -49,7 +48,7 @@
             .then(data => {
                 if (data.success) {
                     loadLaundryData();
-                    form.reset(); // Reset form setelah berhasil menambahkan data
+                    form.reset();
                 } else {
                     alert('Gagal menambahkan data laundry.');
                 }
