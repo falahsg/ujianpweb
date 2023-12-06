@@ -1,4 +1,3 @@
-<!-- update.php -->
 <?php
 include('config.php');
 
@@ -19,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $result = $conn->query($query);
 
     if ($result) {
-        header("Location: index.php"); // Redirect kembali ke halaman utama setelah berhasil menyimpan
+        header("Location: index.php");
         exit();
     } else {
         echo "Gagal menyimpan data.";
