@@ -15,3 +15,4 @@ CREATE TABLE IF NOT EXISTS laundry (
     status VARCHAR(20) NOT NULL  
 );
 ```
+Lalu sesuaikan host, user, pass, db . Pada config.php
